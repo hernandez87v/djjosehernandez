@@ -30,7 +30,7 @@ function Header() {
           <li>
             <a
               rel="noopener noreferrer"
-              href="https://www.mixcloud.com/DjJoseHernandez/stream/"
+              href="https://www.mixcloud.com/DjJoseHernandez/"
               target="_blank"
             >
               Mixcloud

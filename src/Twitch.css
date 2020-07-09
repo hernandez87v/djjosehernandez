@@ -1,0 +1,5 @@
+.twitch-player {
+  margin-top: 10vh;
+  display: flex;
+  justify-content: center;
+}
