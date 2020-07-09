@@ -1,0 +1,39 @@
+* {
+  /* margin: 0px;
+  padding: 0px; */
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 700;
+}
+
+.logo {
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 20px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+}
+
+.nav-links li {
+  list-style: none;
+}
+
+.nav-links a {
+  color: aliceblue;
+  text-decoration: none;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
