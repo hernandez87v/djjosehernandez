@@ -8,7 +8,10 @@
   iframe {
     width: 200%;
     height: 400%;
-    margin: 0em;
-    padding: 0em;
+  }
+
+  .twitch-player {
+    display: flex;
+    justify-content: start;
   }
 }
