@@ -1,12 +1,12 @@
 .twitch-player {
-  margin-top: 10vh;
+  margin-top: 30vh;
   display: flex;
   justify-content: center;
 }
 
 @media screen and (max-width: 950px) {
   iframe {
-    width: 200%;
+    width: 300%;
     height: 400%;
   }
 
