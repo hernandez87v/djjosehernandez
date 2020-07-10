@@ -4,8 +4,8 @@ import './Twitch.css';
 
 function Twitch() {
   return (
-    <div class="twitch-player">
-      <ReactTwitchEmbedVideo channel="djjosehernandez_" />
+    <div className="twitch-player">
+      <ReactTwitchEmbedVideo theme="dark" channel="djjosehernandez_" />
     </div>
   );
 }

@@ -3,3 +3,12 @@
   display: flex;
   justify-content: center;
 }
+
+@media screen and (max-width: 850px) {
+  iframe {
+    width: 200%;
+    height: 400%;
+    margin: 0em;
+    padding: 0em;
+  }
+}

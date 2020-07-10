@@ -1,6 +1,6 @@
 * {
-  /* margin: 0px;
-  padding: 0px; */
+  margin: 0px;
+  padding: 0px;
   box-sizing: border-box;
 }
 
@@ -23,7 +23,7 @@ nav {
 .nav-links {
   display: flex;
   justify-content: space-around;
-  width: 30%;
+  width: 50%;
 }
 
 .nav-links li {
@@ -31,9 +31,17 @@ nav {
 }
 
 .nav-links a {
-  color: aliceblue;
+  color: rgb(211, 211, 211);
   text-decoration: none;
   letter-spacing: 3px;
   text-transform: uppercase;
   font-weight: 700;
+}
+
+@media screen and (max-width: 920px) {
+  .nav-links .logo li {
+    width: 100%;
+    letter-spacing: none;
+    font-size: 1em;
+  }
 }

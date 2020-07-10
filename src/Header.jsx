@@ -5,10 +5,10 @@ function Header() {
   return (
     <>
       <nav>
-        <div class="logo">
+        <div className="logo">
           <h3>DJ Jose Hernandez</h3>
         </div>
-        <ul class="nav-links">
+        <ul className="nav-links">
           <li>
             <a
               rel="noopener noreferrer"
