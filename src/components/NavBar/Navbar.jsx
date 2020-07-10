@@ -6,7 +6,7 @@ class Navbar extends Component {
     return (
       <ReactNavbar
         color="rgb(255, 255, 255)"
-        logo="file:///home/vlad/Downloads/jh-white-logo%20(3).svg"
+        logo="https://github.com/hernandez87v/djjosehernandez/blob/master/public/jh-white-logo.jpg?raw=true"
         menu={[
           { name: 'TWITCH', to: 'https://www.twitch.tv/djjosehernandez_' },
           { name: 'SOUNDCLOUD', to: 'https://soundcloud.com/djjosehernandez' },
