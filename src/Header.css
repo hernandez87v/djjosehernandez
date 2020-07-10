@@ -38,10 +38,27 @@ nav {
   font-weight: 700;
 }
 
-@media screen and (max-width: 920px) {
-  .nav-links .logo li {
-    width: 100%;
+.burger {
+  display: none;
+}
+
+.burger div {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 5px;
+}
+
+@media screen and (max-width: 830px) {
+  .nav-links {
+    width: 60%;
     letter-spacing: none;
     font-size: 1em;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .nav-links {
+    display: none;
   }
 }

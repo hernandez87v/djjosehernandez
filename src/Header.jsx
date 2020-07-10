@@ -40,6 +40,11 @@ function Header() {
             <a href="mailto:name@email.com">Contact</a>
           </li>
         </ul>
+        <div className="burger">
+          <div className="line1"></div>
+          <div className="line2"></div>
+          <div className="line3"></div>
+        </div>
       </nav>
     </>
   );
