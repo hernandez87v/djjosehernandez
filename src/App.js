@@ -1,7 +1,7 @@
 import React from 'react';
-import Header from './Header';
+import Header from './components/NavBar/Header';
 import './App.css';
-import Twitch from './Twitch';
+import Twitch from './components/TwitchPlayer/Twitch';
 
 function App() {
   return (
