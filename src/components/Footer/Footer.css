@@ -1,0 +1,8 @@
+footer {
+  display: flex;
+  justify-content: center;
+  font-family: 'PT Sans', sans-serif;
+  color: rgb(29, 29, 29);
+  position: relative;
+  height: 10px;
+}

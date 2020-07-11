@@ -4,7 +4,6 @@
 
 .twitch-player div {
   margin-top: 20vh;
-  height: 300em;
   display: flex;
   justify-content: center;
 }
@@ -12,6 +11,7 @@
 @media screen and (max-width: 1150px) {
   .twitch-player div {
     margin-top: 10vh;
+    height: 300em;
   }
 }
 
