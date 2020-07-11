@@ -1,20 +1,23 @@
-.twitch-player {
-  margin-top: 20vh;
+/* .twitch-player {
+  margin-top: 25vh;
   display: flex;
   justify-content: center;
 }
 
 @media screen and (max-width: 950px) {
+  #root {
+    width: 100%;
+  }
+
   iframe {
     width: 255%;
     height: 500%;
   }
 
-  div.twitch-player {
-    width: 50%;
-    left: 0px;
+  .twitch-player {
+    margin-top: 10vh;
   }
-}
+} */
 
 /* @media screen and (max-width: 430px) {
   iframe {
@@ -27,3 +30,20 @@
     left: 0px;
   }
 } */
+.twitch-player {
+  margin-top: 20vh;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 950px) {
+  iframe {
+    width: 255%;
+    height: 350%;
+  }
+
+  div.twitch-player {
+    width: 50%;
+    margin-top: 5vh;
+  }
+}

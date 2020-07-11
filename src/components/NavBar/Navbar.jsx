@@ -5,9 +5,6 @@ class Navbar extends Component {
   render() {
     return (
       <>
-        <div>
-          <h3 color="white">DJ JOSE HERNANDEZ</h3>
-        </div>
         <ReactNavbar
           color="rgb(255, 255, 255)"
           logo="https://github.com/hernandez87v/djjosehernandez/blob/master/public/jh-white-logo.jpg?raw=true"
