@@ -1,7 +1,13 @@
-/* .twitch-player {
-  margin-top: 25vh;
+.twitch-player div {
+  margin-top: 20vh;
   display: flex;
   justify-content: center;
+}
+
+@media screen and (max-width: 1150px) {
+  .twitch-player div {
+    margin-top: 10vh;
+  }
 }
 
 @media screen and (max-width: 950px) {
@@ -10,40 +16,12 @@
   }
 
   iframe {
-    width: 255%;
-    height: 500%;
+    width: 150%;
   }
 
-  .twitch-player {
-    margin-top: 10vh;
-  }
-} */
-
-/* @media screen and (max-width: 430px) {
-  iframe {
-    width: 255%;
-    height: 500%;
-  }
-
-  div.twitch-player {
-    width: 100%;
-    left: 0px;
-  }
-} */
-.twitch-player {
-  margin-top: 20vh;
-  display: flex;
-  justify-content: center;
-}
-
-@media screen and (max-width: 950px) {
-  iframe {
-    width: 255%;
-    height: 350%;
-  }
-
-  div.twitch-player {
-    width: 50%;
+  .twitch-player div {
     margin-top: 5vh;
+    /* margin-left: 2%; */
+    width: 100%;
   }
 }
