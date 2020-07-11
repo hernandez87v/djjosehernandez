@@ -9,7 +9,7 @@ class Navbar extends Component {
           color="rgb(255, 255, 255)"
           logo="https://github.com/hernandez87v/djjosehernandez/blob/master/public/jh-white-logo.jpg?raw=true"
           menu={[
-            { name: 'TWITCH', url: 'https://www.twitch.tv/djjosehernandez_' },
+            { name: 'TWITCH', to: 'https://www.twitch.tv/djjosehernandez_' },
             {
               name: 'SOUNDCLOUD',
               to: 'https://soundcloud.com/djjosehernandez',
