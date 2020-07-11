@@ -10,3 +10,9 @@ body {
 .App {
   font-family: 'PT Sans', sans-serif;
 }
+
+li {
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
