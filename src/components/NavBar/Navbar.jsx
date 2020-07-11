@@ -9,16 +9,16 @@ class Navbar extends Component {
           color="rgb(255, 255, 255)"
           logo="https://github.com/hernandez87v/djjosehernandez/blob/master/public/jh-white-logo.jpg?raw=true"
           menu={[
-            { name: 'TWITCH', to: 'https://www.twitch.tv/djjosehernandez_' },
+            { name: 'TWITCH', to: '/' },
             {
               name: 'SOUNDCLOUD',
-              to: 'https://soundcloud.com/djjosehernandez',
+              to: '/',
             },
             {
               name: 'MIXCLOUD',
-              to: 'https://www.mixcloud.com/DjJoseHernandez/',
+              to: '/',
             },
-            { name: 'CONTACT', to: 'mailto:djjosehernandez@hotmail.com' },
+            // { name: 'CONTACT', to: 'mailto:djjosehernandez@hotmail.com' },
           ]}
           social={[
             {
@@ -41,6 +41,11 @@ class Navbar extends Component {
               url: 'https://www.mixcloud.com/DjJoseHernandez/',
               icon: ['fab', 'mixcloud'],
             },
+            // {
+            //   name: 'Email',
+            //   url: 'mailto:djjosehernandez@hotmail.com',
+            //   icon: ['fab', 'envelope-o'],
+            // },
           ]}
         />
       </>
