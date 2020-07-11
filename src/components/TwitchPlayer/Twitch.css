@@ -1,17 +1,29 @@
 .twitch-player {
-  margin-top: 30vh;
+  margin-top: 20vh;
   display: flex;
   justify-content: center;
 }
 
 @media screen and (max-width: 950px) {
   iframe {
-    width: 300%;
-    height: 400%;
+    width: 255%;
+    height: 500%;
   }
 
-  .twitch-player {
-    display: flex;
-    justify-content: flex-start;
+  div.twitch-player {
+    width: 50%;
+    left: 0px;
   }
 }
+
+/* @media screen and (max-width: 430px) {
+  iframe {
+    width: 255%;
+    height: 500%;
+  }
+
+  div.twitch-player {
+    width: 100%;
+    left: 0px;
+  }
+} */
