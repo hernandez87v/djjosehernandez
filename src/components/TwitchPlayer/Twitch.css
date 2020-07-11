@@ -1,5 +1,10 @@
+#root {
+  width: 100%;
+}
+
 .twitch-player div {
   margin-top: 20vh;
+  height: 300em;
   display: flex;
   justify-content: center;
 }
@@ -11,17 +16,19 @@
 }
 
 @media screen and (max-width: 950px) {
-  #root {
-    width: 100%;
-  }
-
   iframe {
     width: 150%;
+    height: 20%;
   }
 
   .twitch-player div {
     margin-top: 5vh;
-    /* margin-left: 2%; */
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  iframe {
+    height: 15%;
   }
 }
