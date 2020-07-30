@@ -12,7 +12,7 @@ class Navbar extends Component {
             { name: 'TWITCH', to: '/' },
             {
               name: 'SOUNDCLOUD',
-              to: '/',
+              to: '../Soundcloud/Soundcloud.jsx',
             },
             {
               name: 'MIXCLOUD',
