@@ -13,10 +13,12 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <Route path="/Twitch" exact component={Twitch} />
-      <Route path="/Soundcloud" exact component={SoundCloud} />
-      <Route path="/Mixcloud" exact component={Mixcloud} />
-      <Route path="/" exact component={Home} />
+      <Switch>
+        <Route path="/Twitch" exact component={Twitch} />
+        <Route path="/Soundcloud" exact component={SoundCloud} />
+        <Route path="/Mixcloud" exact component={Mixcloud} />
+        <Route path="/" exact component={Home} />
+      </Switch>
     </div>
   );
 }

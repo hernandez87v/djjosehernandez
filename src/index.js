@@ -10,7 +10,7 @@ import * as serviceWorker from './serviceWorker';
 // import SoundCloud from 'react-player/lib/players/SoundCloud';
 
 ReactDOM.render(
-  <BrowserRouter>
+  <BrowserRouter forceRefresh={true}>
     <App />
     {/* <Twitch /> */}
     {/* <SoundCloud /> */}
