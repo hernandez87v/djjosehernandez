@@ -13,9 +13,9 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <Route path="/Soundcloud" component={SoundCloud} />
-      <Route path="/Twitch" component={Twitch} />
-      <Route path="/Mixcloud" component={Mixcloud} />
+      <Route path="/Twitch" exact component={Twitch} />
+      <Route path="/Soundcloud" exact component={SoundCloud} />
+      <Route path="/Mixcloud" exact component={Mixcloud} />
       <Route path="/" exact component={Home} />
     </div>
   );
