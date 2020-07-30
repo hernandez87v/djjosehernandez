@@ -4,8 +4,7 @@ import ReactPlayer from 'react-player/soundcloud';
 // ,Loads Soundcloud Player
 function Soundcloud() {
   return (
-    <div className="twitch-player">
-      <ReactTwitchEmbedVideo theme="dark" channel="djjosehernandez_" />
+    <div className="soundcloud-player">
       <ReactPlayer
         height="175px"
         url="https://soundcloud.com/djjosehernandez/making-progress-036"

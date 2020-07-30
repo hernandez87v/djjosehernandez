@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import { ReactNavbar } from 'react-responsive-animate-navbar';
+import Soundcloud from '../Soundcloud/Soundcloud.jsx';
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 
 class Navbar extends Component {
   render() {
@@ -12,7 +14,7 @@ class Navbar extends Component {
             { name: 'TWITCH', to: '/' },
             {
               name: 'SOUNDCLOUD',
-              to: '../Soundcloud/Soundcloud.jsx',
+              to: '/Soundcloud',
             },
             {
               name: 'MIXCLOUD',
