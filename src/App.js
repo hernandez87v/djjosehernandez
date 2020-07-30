@@ -1,11 +1,10 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import './App.css';
 import Navbar from './components/NavBar/Navbar';
 import Twitch from './components/TwitchPlayer/Twitch';
 // import Footer from './components/Footer/Footer';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
-import SoundCloud from 'react-player/lib/players/SoundCloud';
+import SoundCloud from './components/Soundcloud/Soundcloud';
 import Home from './components/Home/Home';
 
 function App() {
@@ -18,11 +17,13 @@ function App() {
       </div>
       <main>
         <Switch>
-          <Route path="/" component={Home} exact />
+          <Route path="/" component={Home} exact>
+            <Home />
+          </Route>
           <Route path="/Soundcloud" component={SoundCloud}>
             <SoundCloud />
           </Route>
-          <Route path="/Twitch">
+          <Route path="/Twitch" component={Twitch}>
             <Twitch />
           </Route>
         </Switch>
@@ -31,11 +32,11 @@ function App() {
   );
 }
 
-ReactDOM.render(
-  <Router>
-    <App />
-  </Router>,
-  document.getElementById('root')
-);
+// ReactDOM.render(
+//   <Router>
+//     <App />
+//   </Router>,
+//   document.getElementById('root')
+// );
 
 export default App;

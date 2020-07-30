@@ -5,15 +5,15 @@ import { BrowserRouter } from 'react-router-dom';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import Twitch from './components/TwitchPlayer/Twitch';
+// import Twitch from './components/TwitchPlayer/Twitch';
 import * as serviceWorker from './serviceWorker';
-import SoundCloud from 'react-player/lib/players/SoundCloud';
+// import SoundCloud from 'react-player/lib/players/SoundCloud';
 
 ReactDOM.render(
   <BrowserRouter>
     <App />
-    <Twitch />
-    <SoundCloud />
+    {/* <Twitch /> */}
+    {/* <SoundCloud /> */}
   </BrowserRouter>,
   document.getElementById('root')
 );

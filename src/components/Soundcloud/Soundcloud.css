@@ -1,0 +1,30 @@
+.soundcloud-player div {
+  margin-top: 30vh;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1150px) {
+  .soundcloud-player div {
+    margin-top: 20vh;
+    height: 300em;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  iframe {
+    width: 150%;
+    height: 20%;
+  }
+
+  .soundcloud-player div {
+    margin-top: 15vh;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  iframe {
+    height: 15%;
+  }
+}

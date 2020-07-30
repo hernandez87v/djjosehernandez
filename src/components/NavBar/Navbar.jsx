@@ -17,7 +17,7 @@ class Navbar extends Component {
             },
             {
               name: 'MIXCLOUD',
-              to: '/',
+              to: '/Mixcloud',
             },
             // { name: 'CONTACT', to: 'mailto:djjosehernandez@hotmail.com' },
           ]}
