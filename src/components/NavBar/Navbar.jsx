@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { ReactNavbar } from 'react-responsive-animate-navbar';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+// import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 
 class Navbar extends Component {
   render() {
@@ -10,7 +10,7 @@ class Navbar extends Component {
           color="rgb(255, 255, 255)"
           logo="https://github.com/hernandez87v/djjosehernandez/blob/master/public/jh-white-logo.jpg?raw=true"
           menu={[
-            { name: 'TWITCH', to: '/' },
+            { name: 'TWITCH', to: '/Twitch' },
             {
               name: 'SOUNDCLOUD',
               to: '/Soundcloud',

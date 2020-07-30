@@ -1,10 +1,11 @@
-import React, { Component } from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+// import React, { Component } from 'react';
+// import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import React from 'react';
+import { BrowserRouter } from 'react-router-dom';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import Twitch from './components/TwitchPlayer/Twitch';
-import Soundcloud from './components/Soundcloud/Soundcloud';
 import * as serviceWorker from './serviceWorker';
 import SoundCloud from 'react-player/lib/players/SoundCloud';
 
