@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { ReactNavbar } from 'react-responsive-animate-navbar';
-import Soundcloud from '../Soundcloud/Soundcloud.jsx';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 
 class Navbar extends Component {

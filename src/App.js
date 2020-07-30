@@ -8,32 +8,25 @@ import SoundCloud from 'react-player/lib/players/SoundCloud';
 
 function App() {
   return (
-    <Router>
+    <>
       <div className="App">
         <Navbar></Navbar>
-        <Twitch></Twitch>
+        {/* <Twitch></Twitch> */}
         {/* <Footer></Footer> */}
-
-        <nav>
-          <ul>
-            <li>
-              <Link to="/components/Soundcloud/Soundcloud">About</Link>
-            </li>
-            <li>
-              <Link to="/Twitch">Users</Link>
-            </li>
-          </ul>
-        </nav>
+      </div>
+      <main>
         <Switch>
-          <Route path="/components/Soundcloud/Soundcloud">
-            <SoundCloud />
-          </Route>
-          <Route path="/users">
+          {/* <Route path="/" component={Home} exact /> */}
+          <Route
+            path="/components/Soundcloud/Soundcloud"
+            component={SoundCloud}
+          ></Route>
+          <Route path="/components/TwitchPlayer/Twitch">
             <Twitch />
           </Route>
         </Switch>
-      </div>
-    </Router>
+      </main>
+    </>
   );
 }
 
