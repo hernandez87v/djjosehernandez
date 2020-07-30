@@ -1,11 +1,11 @@
-.soundcloud-player div {
+.mixcloud-player div {
   margin-top: 30vh;
   display: flex;
   justify-content: center;
 }
 
 @media screen and (max-width: 1150px) {
-  .soundcloud-player div {
+  .mixcloud-player div {
     margin-top: 20vh;
     height: 300em;
   }
@@ -17,7 +17,7 @@
     height: 20%;
   }
 
-  .soundcloud-player div {
+  .mixcloud-player div {
     margin-top: 15vh;
     width: 100%;
   }
