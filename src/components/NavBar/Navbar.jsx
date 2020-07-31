@@ -11,7 +11,7 @@ class Navbar extends Component {
         menu={[
           {
             name: 'TWITCH',
-            to: '/Twitch',
+            to: "/Twitch",
           },
           {
             name: 'SOUNDCLOUD',
