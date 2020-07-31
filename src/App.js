@@ -12,15 +12,15 @@ import Mixcloud from './components/Mixcloud/Mixcloud';
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <Router>
+    <Router>
+      <div className="App">
+        <Navbar />
+        <Route path="/" exact component={Twitch} />
         <Route path="/Twitch" exact component={Twitch} />
         <Route path="/Soundcloud" exact component={Soundcloud} />
         <Route path="/Mixcloud" exact component={Mixcloud} />
-        <Route path="/" exact component={Twitch} />
-      </Router>
-    </div>
+      </div>
+    </Router>
   );
 }
 

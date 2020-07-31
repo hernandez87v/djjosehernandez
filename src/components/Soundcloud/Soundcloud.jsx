@@ -3,7 +3,7 @@ import ReactPlayer from 'react-player/soundcloud';
 import './Soundcloud.css';
 
 // ,Loads Soundcloud Player
-function Soundcloud() {
+export default function Soundcloud() {
   return (
     <div className="soundcloud-player">
       <ReactPlayer
@@ -14,5 +14,3 @@ function Soundcloud() {
     </div>
   );
 }
-
-export default Soundcloud;
