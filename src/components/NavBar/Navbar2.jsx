@@ -3,11 +3,11 @@ import './Navbar2.css';
 export default function Soundcloud() {
   return (
     <header>
-      <h2 class="logo" alt="logo">
+      <h2 className="logo" alt="logo" href="/">
         DJ Jose Hernandez
       </h2>
       <nav>
-        <ul class="nav__links">
+        <ul className="nav__links">
           <li>
             <a href="/Twitch">Twitch</a>
           </li>
@@ -19,7 +19,7 @@ export default function Soundcloud() {
           </li>
         </ul>
       </nav>
-      <a class="cta" href="mailto:djjosehernandez@hotmail.com">
+      <a className="cta" href="mailto:djjosehernandez@hotmail.com">
         <button>Contact</button>
       </a>
     </header>
