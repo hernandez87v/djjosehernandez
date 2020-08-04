@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap');
+
+* {
+  font-family: 'Teko', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  cursor: pointer;
+  color: white;
+  font-size: xx-large;
+  font-weight: 700;
+  margin-right: auto;
+}
+
+.nav__links {
+  text-decoration: none;
+}
+
+.nav__links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav__links li a {
+  transition: all 0.5s ease 0s;
+  text-decoration: none;
+  color: white;
+}
+
+.nav__links li a:hover {
+  color: gray;
+}
+
+button {
+  margin-left: 20px;
+  padding: 9px 25px;
+  background-color: whitesmoke;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+button:hover {
+  background-color: rgb(245, 245, 245, 0.8);
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px 5%;
+}
