@@ -1,8 +1,23 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
 footer {
   display: flex;
-  justify-content: center;
-  font-family: 'PT Sans', sans-serif;
+  justify-content: space-around;
   color: rgb(29, 29, 29);
   position: relative;
-  height: 10px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.footer__socials {
+  display: flex;
+  justify-content: center;
+  padding: 5% 0 2%;
 }

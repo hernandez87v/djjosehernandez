@@ -7,6 +7,7 @@ import './index.css';
 import App from './App';
 // import Twitch from './components/TwitchPlayer/Twitch';
 import * as serviceWorker from './serviceWorker';
+import Footer from './components/Footer/Footer';
 // import SoundCloud from 'react-player/lib/players/SoundCloud';
 
 ReactDOM.render(
@@ -14,6 +15,7 @@ ReactDOM.render(
     <App />
     {/* <Twitch /> */}
     {/* <SoundCloud /> */}
+    <Footer />
   </BrowserRouter>,
   document.getElementById('root')
 );
