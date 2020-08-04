@@ -3,8 +3,8 @@ import './Navbar2.css';
 export default function Soundcloud() {
   return (
     <header>
-      <h2 className="logo" alt="logo" href="/">
-        DJ Jose Hernandez
+      <h2 className="logo" alt="logo">
+        <a href="/">DJ Jose Hernandez</a>
       </h2>
       <nav>
         <ul className="nav__links">
