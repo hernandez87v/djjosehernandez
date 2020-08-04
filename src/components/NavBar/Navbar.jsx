@@ -11,7 +11,7 @@ class Navbar extends Component {
         menu={[
           {
             name: 'TWITCH',
-            to: "/Twitch",
+            to: '/Twitch',
           },
           {
             name: 'SOUNDCLOUD',
@@ -21,7 +21,6 @@ class Navbar extends Component {
             name: 'MIXCLOUD',
             to: '/Mixcloud',
           },
-          // { name: 'CONTACT', to: 'mailto:djjosehernandez@hotmail.com' },
         ]}
         social={[
           {
@@ -44,11 +43,6 @@ class Navbar extends Component {
             url: 'https://www.mixcloud.com/DjJoseHernandez/',
             icon: ['fab', 'mixcloud'],
           },
-          // {
-          //   name: 'Email',
-          //   url: 'mailto:djjosehernandez@hotmail.com',
-          //   icon: ['fab', 'envelope-o'],
-          // },
         ]}
       />
     );
