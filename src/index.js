@@ -4,12 +4,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import Footer from './components/Footer/Footer';
+// import Footer from './components/Footer/Footer';
 
 ReactDOM.render(
   <BrowserRouter forceRefresh={true}>
     <App />
-    <Footer />
+    {/* <Footer /> */}
   </BrowserRouter>,
   document.getElementById('root')
 );

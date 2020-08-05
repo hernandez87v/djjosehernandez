@@ -1,11 +1,18 @@
 import React from 'react';
+// import './Home.css';
+import Background from './djjosehernandez.jpg';
+
+var sectionStyle = {
+  width: '100%',
+  height: '70vh',
+  backgroundImage: `url(${Background})`,
+  backgroundPosition: 'center',
+  backgroundSize: 'cover',
+  backgroundRepeat: 'no-repeat',
+};
 
 function Home() {
-  return (
-    <div className="home">
-      <h2>Home</h2>
-    </div>
-  );
+  return <section style={sectionStyle}></section>;
 }
 
 export default Home;
