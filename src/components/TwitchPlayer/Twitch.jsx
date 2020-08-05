@@ -1,7 +1,7 @@
 import React from 'react';
 // import ReactTwitchEmbedVideo from 'react-twitch-embed-video';
 import ReactPlayer from 'react-player/twitch';
-// import './Twitch.css';
+import './Twitch.css';
 
 // function Twitch() {
 //   return (
