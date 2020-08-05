@@ -1,9 +1,11 @@
-#root {
-  /* width: 100%;
-  height: 100%; */
-}
+/* #app {
+  width: 100%;
+  height: 100%;
+} */
 
-.twitch-player div {
+div.twitch-player {
+  width: 100%;
+  height: 100%;
   margin: auto;
   padding: 0;
   display: flex;
@@ -11,27 +13,16 @@
   align-items: center;
 }
 
-/* @media screen and (max-width: 1150px) {
-  .twitch-player div {
-    width: 1920px;
-    height: 1080px;
-  }
-} */
-
 @media screen and (max-width: 950px) {
-  iframe {
+  .twitch-player div iframe {
     width: 100%;
     height: 100%;
   }
-  /* .twitch-player div {
-    width: 100%;
-    height: 100%;
-  } */
 }
 
 @media screen and (max-width: 650px) {
-  iframe {
-    height: 50px;
+  div.twitch-player iframe {
+    height: 340px;
   }
 }
 

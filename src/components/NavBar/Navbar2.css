@@ -51,3 +51,39 @@ header {
   align-items: center;
   padding: 20px 5%;
 }
+
+@media screen and (max-width: 700px) {
+  h2.logo {
+    align-items: center;
+    margin: auto;
+    padding: 0;
+  }
+
+  ul.nav__links {
+    align-items: baseline;
+    /* padding-left: 20px; */
+    /* padding: 0; */
+  }
+
+  header {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 20px 0;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  div.nav__links li {
+    display: list-item;
+  }
+
+  header div {
+    display: block;
+    flex-wrap: wrap;
+  }
+
+  button {
+    align-items: center;
+  }
+}
