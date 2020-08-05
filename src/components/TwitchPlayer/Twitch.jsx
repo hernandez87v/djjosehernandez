@@ -17,12 +17,9 @@ function Twitch() {
       <ReactPlayer
         url={'https://www.twitch.tv/djjosehernandez_'}
         config={{
-          twitch: {
-            options: {
-              theme: 'dark',
-              layout: 'video-with-chat',
-              channel: 'djjosehernandez_',
-            },
+          options: {
+            theme: 'dark',
+            autoplay: true,
           },
         }}
       />
