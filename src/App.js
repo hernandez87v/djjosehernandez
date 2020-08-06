@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './App.css';
 import Home from './components/Home/Home';
 import Twitch from './components/TwitchPlayer/Twitch';
@@ -13,11 +13,13 @@ function App() {
     <Router>
       <div className="App">
         <Navbar2 />
-        <Route path="/" exact component={Home} />
-        <Route path="/Twitch" exact component={Twitch} />
-        <Route path="/Soundcloud" exact component={Soundcloud} />
-        <Route path="/Mixcloud" exact component={Mixcloud} />
-        <Footer />
+        <Switch>
+          <Route path="/" exact component={Home} />
+          <Route path="/Twitch" exact component={Twitch} />
+          <Route path="/Soundcloud" exact component={Soundcloud} />
+          <Route path="/Mixcloud" exact component={Mixcloud} />
+          <Footer />
+        </Switch>
       </div>
     </Router>
   );
