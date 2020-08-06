@@ -10,6 +10,11 @@ export default function Soundcloud() {
         height="100%"
         width="100%"
         url="https://soundcloud.com/djjosehernandez/making-progress-036"
+        config={{
+          options: {
+            auto_play: true,
+          },
+        }}
       />
     </div>
   );

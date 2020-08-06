@@ -15,7 +15,21 @@ var sectionStyle = {
 };
 
 function Home() {
-  return <section style={sectionStyle}></section>;
+  return (
+    <>
+      <div className="mixcloud-home">
+        <iframe
+          title="mixcloud-home-player"
+          width="100%"
+          height="60"
+          src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&autoplay=1&feed=%2Fvancouvertrancefamily%2Fvtf-radio-66-jose-hernandez%2F"
+          frameborder="0"
+          allow="autoplay"
+        ></iframe>
+      </div>
+      <section style={sectionStyle}> </section>
+    </>
+  );
 }
 
 export default Home;
