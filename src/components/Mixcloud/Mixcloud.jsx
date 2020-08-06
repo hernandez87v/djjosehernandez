@@ -7,7 +7,7 @@ function Mixcloud() {
   return (
     <div className="mixcloud-player">
       <ReactPlayer
-        height="200px"
+        height="160px"
         width="100%"
         url="https://www.mixcloud.com/vancouvertrancefamily/vtf-radio-66-jose-hernandez/"
       />

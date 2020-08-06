@@ -80,10 +80,6 @@ button:hover {
     flex-direction: column;
   }
 
-  ul.nav__links li {
-    /* padding: 0px 10px 0px 10px; */
-  }
-
   button {
     margin: 10px 0px 0px 0px;
     padding: 6px 20px;
