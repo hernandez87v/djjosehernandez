@@ -75,16 +75,17 @@ button:hover {
 }
 
 @media screen and (max-width: 630px) {
-  div.nav__links li {
-    display: list-item;
+  header#navbar-header {
+    display: flex;
+    flex-direction: column;
   }
 
-  header div {
-    display: block;
-    flex-wrap: wrap;
+  ul.nav__links li {
+    /* padding: 0px 10px 0px 10px; */
   }
 
   button {
-    align-items: center;
+    margin: 10px 0px 0px 0px;
+    padding: 6px 20px;
   }
 }
