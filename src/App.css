@@ -6,8 +6,13 @@
 }
 
 body {
+  display: flex;
+  flex-direction: column;
   background-color: black;
+  height: 100%;
+  margin: 0;
 }
+
 .App {
   font-family: 'PT Sans', sans-serif;
 }
