@@ -1,6 +1,5 @@
 import React from 'react';
 import './Navbar2.css';
-// import { Component } from 'react';
 import { Link } from 'react-router-dom';
 
 export default function Soundcloud() {
@@ -15,10 +14,10 @@ export default function Soundcloud() {
             <Link to="/Twitch">Twitch</Link>
           </li>
           <li>
-            <a href="/Soundcloud">Soundcloud</a>
+            <Link to="/Soundcloud">Soundcloud</Link>
           </li>
           <li>
-            <a href="/Mixcloud">Mixcloud</a>
+            <Link to="/Mixcloud">Mixcloud</Link>
           </li>
         </ul>
       </nav>
