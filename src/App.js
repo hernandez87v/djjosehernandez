@@ -18,8 +18,8 @@ function App() {
           <Route path="/Twitch" exact component={Twitch} />
           <Route path="/Soundcloud" exact component={Soundcloud} />
           <Route path="/Mixcloud" exact component={Mixcloud} />
-          <Footer />
         </Switch>
+        <Footer />
       </div>
     </Router>
   );
