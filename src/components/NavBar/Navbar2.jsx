@@ -2,7 +2,7 @@ import React from 'react';
 import './Navbar2.css';
 export default function Soundcloud() {
   return (
-    <header>
+    <header id="navbar-header">
       <h2 className="logo" alt="logo">
         <a href="/">DJ Jose Hernandez</a>
       </h2>

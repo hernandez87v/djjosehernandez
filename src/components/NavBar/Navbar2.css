@@ -1,12 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap');
 
-* {
-  font-family: 'Teko', sans-serif;
-  margin: 0;
-  padding: 0;
-  text-decoration: none;
+header#navbar-header {
+  background-color: rgba(0, 0, 0, 0.418);
+  position: relative;
+  z-index: 1;
 }
 
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px 5%;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+ul.nav__links {
+  background-color: rgba(0, 0, 0, 0);
+}
 .logo {
   cursor: pointer;
   font-size: xx-large;
@@ -43,13 +53,6 @@ button {
 
 button:hover {
   background-color: rgb(245, 245, 245, 0.8);
-}
-
-header {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  padding: 20px 5%;
 }
 
 @media screen and (max-width: 700px) {

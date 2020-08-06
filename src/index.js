@@ -9,7 +9,6 @@ import * as serviceWorker from './serviceWorker';
 ReactDOM.render(
   <BrowserRouter forceRefresh={true}>
     <App />
-    {/* <Footer /> */}
   </BrowserRouter>,
   document.getElementById('root')
 );
