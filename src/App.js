@@ -1,3 +1,4 @@
+import ReactGA from 'react-ga';
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './App.css';
@@ -7,6 +8,11 @@ import Soundcloud from './components/Soundcloud/Soundcloud';
 import Mixcloud from './components/Mixcloud/Mixcloud';
 import Navbar2 from './components/NavBar/Navbar2';
 import Footer from './components/Footer/Footer';
+
+function initializeReactGA() {
+  ReactGA.initialize('UA-174943803-1');
+  ReactGA.pageview('/');
+}
 
 function App() {
   return (
