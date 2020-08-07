@@ -1,12 +1,23 @@
-iframe div.mixcloud-home {
-  z-index: 2;
-  bottom: 0;
+section {
+  z-index: -1;
 }
 
-/* .mixcloud-footer-widget-body-wrapper .my-fixed-element {
-  bottom: 60px;
-} */
+div.mixcloud-home {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35%;
+}
 
-/* iframe.widget-containter {
-  bottom: 0;
-} */
+@media screen and (max-width: 915px) {
+  div.mixcloud-home {
+    width: 65%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  div.mixcloud-home {
+    width: 100%;
+  }
+}
