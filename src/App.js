@@ -1,4 +1,4 @@
-import initGA from 'react-ga';
+import ReactGA from 'react-ga';
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './App.css';
@@ -9,9 +9,9 @@ import Mixcloud from './components/Mixcloud/Mixcloud';
 import Navbar2 from './components/NavBar/Navbar2';
 import Footer from './components/Footer/Footer';
 
-useEffect(() => {
-  initGA();
-}, []);
+// ----- Google Analytics ------
+ReactGA.initialize('UA-174943803-1');
+ReactGA.pageview(window.location.pathname + window.location.search);
 
 function App() {
   return (

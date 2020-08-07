@@ -1,19 +1,9 @@
-import ReactGA from 'react-ga';
 import React from 'react';
 import { BrowserRouter } from 'react-router-dom';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-
-// ---- Google Analytics ------
-export const initGA = () => {
-  ReactGA.initialize('UA-174943803-1');
-};
-
-export const GApageView = (page) => {
-  ReactGA.pageview(page);
-};
 
 ReactDOM.render(
   <BrowserRouter forceRefresh={true}>
