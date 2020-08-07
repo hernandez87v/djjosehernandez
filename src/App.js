@@ -9,10 +9,13 @@ import Mixcloud from './components/Mixcloud/Mixcloud';
 import Navbar2 from './components/NavBar/Navbar2';
 import Footer from './components/Footer/Footer';
 
-function initializeReactGA() {
-  ReactGA.initialize('UA-174943803-1');
-  ReactGA.pageview('/');
-}
+export const initGA = () => {
+  ReactGA.initialize('UA-174943803-1'); // put your tracking id here
+};
+
+useEffect(() => {
+  initGA();
+}, []);
 
 function App() {
   return (
