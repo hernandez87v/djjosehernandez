@@ -10,14 +10,9 @@ import Navbar2 from './components/NavBar/Navbar2';
 import Footer from './components/Footer/Footer';
 
 function App() {
-  // Keys
-  require('dotenv').config({
-    path: `.env.${process.env.NODE_ENV}`,
-  });
-
   // ----- Google Analytics ------
   useEffect(() => {
-    ReactGA.initialize('process.env.GA_TRACKING_ID');
+    ReactGA.initialize('UA-175233883-1');
     //Reports page views
     ReactGA.pageview(window.location.pathname + window.location.search);
   }, []);

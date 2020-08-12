@@ -1,19 +1,23 @@
 import React from 'react';
 import './Footer.css';
+import ReactGA from 'react-ga';
 
 function Footer() {
   return (
     <>
       {/* Socials */}
       <div className="footer__socials">
-        <a
-          href="https://www.instagram.com/djjosehernandez/"
+        <ReactGA.OutboundLink
+          eventLabel="Ig"
+          to="https://www.instagram.com/djjosehernandez/"
           target="_blank"
+          // href="https://www.instagram.com/djjosehernandez/"
+          // target="_blank"
           rel="noopener noreferrer"
           class="fa fa-instagram"
         >
           {' '}
-        </a>
+        </ReactGA.OutboundLink>
         <a
           href="https://www.twitch.tv/djjosehernandez_"
           target="_blank"
