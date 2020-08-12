@@ -7,14 +7,16 @@
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "dotenv": "^8.2.0",
+    "lodash": "^4.17.19",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-ga": "^3.1.2",
     "react-player": "^2.6.0",
     "react-responsive-animate-navbar": "^1.1.8",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "3.4.1",
-    "react-twitch-embed-video": "^2.0.3"
+    "react-scripts": "^3.4.2",
+    "react-twitch-embed-video": "^2.0.3",
+    "serialize-javascript": "^4.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
