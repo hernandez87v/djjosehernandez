@@ -12,7 +12,7 @@ export default function Soundcloud() {
       <nav>
         <ul className="nav__links">
           <li>
-            <Link>
+            <Link to="/Twitch">
               <ReactGA.OutboundLink eventLabel="Twitch_toPage" to="/Twitch">
                 Twitch
               </ReactGA.OutboundLink>
