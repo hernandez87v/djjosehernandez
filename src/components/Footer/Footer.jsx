@@ -8,40 +8,41 @@ function Footer() {
       {/* Socials */}
       <div className="footer__socials">
         <ReactGA.OutboundLink
-          eventLabel="Ig"
+          eventLabel="Instagram_toSocial"
           to="https://www.instagram.com/djjosehernandez/"
           target="_blank"
-          // href="https://www.instagram.com/djjosehernandez/"
-          // target="_blank"
           rel="noopener noreferrer"
           class="fa fa-instagram"
         >
           {' '}
         </ReactGA.OutboundLink>
-        <a
-          href="https://www.twitch.tv/djjosehernandez_"
+        <ReactGA.OutboundLink
+          eventLabel="Twitch_toSocial"
+          to="https://www.twitch.tv/djjosehernandez_"
           target="_blank"
           rel="noopener noreferrer"
           class="fa fa-twitch"
         >
           {' '}
-        </a>
-        <a
-          href="https://soundcloud.com/djjosehernandez"
+        </ReactGA.OutboundLink>
+        <ReactGA.OutboundLink
+          eventLabel="Soundcloud_toSocial"
+          to="https://soundcloud.com/djjosehernandez"
           target="_blank"
           rel="noopener noreferrer"
           class="fa fa-soundcloud"
         >
           {' '}
-        </a>
-        <a
-          href="https://www.mixcloud.com/DjJoseHernandez/"
+        </ReactGA.OutboundLink>
+        <ReactGA.OutboundLink
+          eventLabel="Mixcloud_toSocial"
+          to="https://www.mixcloud.com/DjJoseHernandez/"
           target="_blank"
           rel="noopener noreferrer"
           class="fa fa-mixcloud"
         >
           {' '}
-        </a>
+        </ReactGA.OutboundLink>
       </div>
       <footer id="footer">
         {/* < !--Copyright -- > */}
