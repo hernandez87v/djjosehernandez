@@ -1,6 +1,6 @@
 import React from 'react';
 import './Navbar2.css';
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import ReactGA from 'react-ga';
 
 export default function Soundcloud() {
@@ -12,32 +12,40 @@ export default function Soundcloud() {
       <nav>
         <ul className="nav__links">
           <li>
-            <ReactGA.OutboundLink eventLabel="Twitch_toPage" to="/Twitch">
-              Twitch
-            </ReactGA.OutboundLink>
+            <Link>
+              <ReactGA.OutboundLink eventLabel="Twitch_toPage" to="/Twitch">
+                Twitch
+              </ReactGA.OutboundLink>
+            </Link>
           </li>
           <li>
-            <ReactGA.OutboundLink
-              eventLabel="Soundcloud_toPage"
-              to="/Soundcloud"
-            >
-              Soundcloud
-            </ReactGA.OutboundLink>
+            <Link>
+              <ReactGA.OutboundLink
+                eventLabel="Soundcloud_toPage"
+                to="/Soundcloud"
+              >
+                Soundcloud
+              </ReactGA.OutboundLink>
+            </Link>
           </li>
           <li>
-            <ReactGA.OutboundLink eventLabel="Mixcloud_toPage" to="/Mixcloud">
-              Mixcloud
-            </ReactGA.OutboundLink>
+            <Link>
+              <ReactGA.OutboundLink eventLabel="Mixcloud_toPage" to="/Mixcloud">
+                Mixcloud
+              </ReactGA.OutboundLink>
+            </Link>
           </li>
         </ul>
       </nav>
-      <ReactGA.OutboundLink
-        className="cta"
-        eventLabel="Email_Contact"
-        to="mailto:djjosehernandez@hotmail.com"
-      >
-        <button>Contact</button>
-      </ReactGA.OutboundLink>
+      <Link>
+        <ReactGA.OutboundLink
+          className="cta"
+          eventLabel="Email_Contact"
+          to="mailto:djjosehernandez@hotmail.com"
+        >
+          <button>Contact</button>
+        </ReactGA.OutboundLink>
+      </Link>
     </header>
   );
 }
