@@ -13,6 +13,7 @@ function Footer() {
           target="_blank"
           rel="noopener noreferrer preconnect"
           className="fa fa-instagram"
+          aria-label="Instagram"
         >
           {' '}
         </ReactGA.OutboundLink>
@@ -22,6 +23,7 @@ function Footer() {
           target="_blank"
           rel="noopener noreferrer preconnect"
           className="fa fa-twitch"
+          aria-label="Twitch"
         >
           {' '}
         </ReactGA.OutboundLink>
@@ -31,6 +33,7 @@ function Footer() {
           target="_blank"
           rel="noopener noreferrer preconnect"
           className="fa fa-soundcloud"
+          aria-label="Soundcloud"
         >
           {' '}
         </ReactGA.OutboundLink>
@@ -40,6 +43,7 @@ function Footer() {
           target="_blank"
           rel="noopener noreferrer preconnect"
           className="fa fa-mixcloud"
+          aria-label="Mixcloud"
         >
           {' '}
         </ReactGA.OutboundLink>
