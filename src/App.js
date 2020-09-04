@@ -10,10 +10,8 @@ import Navbar2 from './components/NavBar/Navbar2';
 import Footer from './components/Footer/Footer';
 
 function App() {
-  // ----- Google Analytics ------
   useEffect(() => {
     ReactGA.initialize('UA-175233883-1');
-    //Reports page views
     ReactGA.pageview(window.location.pathname + window.location.search);
   }, []);
 
