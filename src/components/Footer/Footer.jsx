@@ -11,7 +11,7 @@ function Footer() {
           eventLabel="Instagram_toSocial"
           to="https://www.instagram.com/djjosehernandez/"
           target="_blank"
-          rel="noopener noreferrer"
+          rel="noopener noreferrer preconnect"
           className="fa fa-instagram"
         >
           {' '}
@@ -20,7 +20,7 @@ function Footer() {
           eventLabel="Twitch_toSocial"
           to="https://www.twitch.tv/djjosehernandez_"
           target="_blank"
-          rel="noopener noreferrer"
+          rel="noopener noreferrer preconnect"
           className="fa fa-twitch"
         >
           {' '}
@@ -29,7 +29,7 @@ function Footer() {
           eventLabel="Soundcloud_toSocial"
           to="https://soundcloud.com/djjosehernandez"
           target="_blank"
-          rel="noopener noreferrer"
+          rel="noopener noreferrer preconnect"
           className="fa fa-soundcloud"
         >
           {' '}
@@ -38,7 +38,7 @@ function Footer() {
           eventLabel="Mixcloud_toSocial"
           to="https://www.mixcloud.com/DjJoseHernandez/"
           target="_blank"
-          rel="noopener noreferrer"
+          rel="noopener noreferrer preconnect"
           className="fa fa-mixcloud"
         >
           {' '}
