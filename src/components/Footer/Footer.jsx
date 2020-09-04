@@ -12,7 +12,7 @@ function Footer() {
           to="https://www.instagram.com/djjosehernandez/"
           target="_blank"
           rel="noopener noreferrer"
-          class="fa fa-instagram"
+          className="fa fa-instagram"
         >
           {' '}
         </ReactGA.OutboundLink>
@@ -21,7 +21,7 @@ function Footer() {
           to="https://www.twitch.tv/djjosehernandez_"
           target="_blank"
           rel="noopener noreferrer"
-          class="fa fa-twitch"
+          className="fa fa-twitch"
         >
           {' '}
         </ReactGA.OutboundLink>
@@ -30,7 +30,7 @@ function Footer() {
           to="https://soundcloud.com/djjosehernandez"
           target="_blank"
           rel="noopener noreferrer"
-          class="fa fa-soundcloud"
+          className="fa fa-soundcloud"
         >
           {' '}
         </ReactGA.OutboundLink>
@@ -39,7 +39,7 @@ function Footer() {
           to="https://www.mixcloud.com/DjJoseHernandez/"
           target="_blank"
           rel="noopener noreferrer"
-          class="fa fa-mixcloud"
+          className="fa fa-mixcloud"
         >
           {' '}
         </ReactGA.OutboundLink>
