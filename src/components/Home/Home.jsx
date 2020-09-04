@@ -1,6 +1,6 @@
 import React from 'react';
 import './Home.css';
-import Background from './djjosehernandez.png';
+import Background from './djjosehernandez.webp';
 
 var sectionStyle = {
   top: '0',
