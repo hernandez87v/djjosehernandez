@@ -1,6 +1,6 @@
 import React from 'react';
 import './Home.css';
-import Background from './djjosehernandez.png';
+import Background from '../../djjosehernandez.png';
 
 var sectionStyle = {
   top: '0',
@@ -8,7 +8,7 @@ var sectionStyle = {
   position: 'absolute',
   width: '100%',
   height: '100%',
-  backgroundImage: `url(${Background})`,
+  backgroundImage: `url('${Background}')`,
   backgroundPosition: 'center',
   backgroundSize: 'cover',
   backgroundRepeat: 'no-repeat',
