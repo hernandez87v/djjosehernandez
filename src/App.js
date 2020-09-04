@@ -6,19 +6,16 @@ import loadable from '@loadable/component';
 
 const Navbar2 = loadable(() => import('./components/NavBar/Navbar2'));
 const Footer = loadable(() => import('./components/Footer/Footer'));
+const Home = loadable(() => import('./components/Home/Home'));
+const Twitch = loadable(() => import('./components/TwitchPlayer/Twitch'));
+const Soundcloud = loadable(() => import('./components/Soundcloud/Soundcloud'));
+const Mixcloud = loadable(() => import('./components/Mixcloud/Mixcloud'));
 
 function App() {
   useEffect(() => {
     ReactGA.initialize('UA-175233883-1');
     ReactGA.pageview(window.location.pathname + window.location.search);
   }, []);
-
-  const Home = loadable(() => import('./components/Home/Home'));
-  const Twitch = loadable(() => import('./components/TwitchPlayer/Twitch'));
-  const Soundcloud = loadable(() =>
-    import('./components/Soundcloud/Soundcloud')
-  );
-  const Mixcloud = loadable(() => import('./components/Mixcloud/Mixcloud'));
 
   return (
     <Router>
