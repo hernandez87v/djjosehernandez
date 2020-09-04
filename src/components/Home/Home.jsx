@@ -1,6 +1,6 @@
 import React from 'react';
 import './Home.css';
-import Background from '../../djjosehernandez.png';
+// import Background from 'https://github.com/hernandez87v/djjosehernandez/blob/master/public/djjosehernandez.png?raw=true';
 
 var sectionStyle = {
   top: '0',
@@ -8,7 +8,7 @@ var sectionStyle = {
   position: 'absolute',
   width: '100%',
   height: '100%',
-  backgroundImage: `url('${Background}')`,
+  backgroundImage: `url('https://github.com/hernandez87v/djjosehernandez/blob/master/public/djjosehernandez.png?raw=true')`,
   backgroundPosition: 'center',
   backgroundSize: 'cover',
   backgroundRepeat: 'no-repeat',
