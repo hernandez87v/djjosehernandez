@@ -1,5 +1,9 @@
 :headphones: A DJ Website with links to social media and music player APIs. Built with responsive design in mind.
 
+## Next up:
+
+:arrow_right: Make the site a Progressive Web App.
+
 ## :iphone: Mobile Portrait View
 
 ![DJ website mobile portrait view](/public/jh-mobile-portrait.png)
