@@ -1,8 +1,8 @@
 /* Social media icons  */
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css');
 
 /* Social media icons all together*/
-.fa {
+.fab {
   padding: 20px;
   font-size: 30px;
   width: 30px;

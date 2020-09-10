@@ -12,7 +12,7 @@ function Footer() {
           to="https://www.instagram.com/djjosehernandez/"
           target="_blank"
           rel="noopener noreferrer preload"
-          className="fa fa-instagram"
+          className="fab fa-instagram"
           aria-label="Instagram"
         >
           {' '}
@@ -22,7 +22,7 @@ function Footer() {
           to="https://www.twitch.tv/djjosehernandez_"
           target="_blank"
           rel="noopener noreferrer preload"
-          className="fa fa-twitch"
+          className="fab fa-twitch"
           aria-label="Twitch"
         >
           {' '}
@@ -32,7 +32,7 @@ function Footer() {
           to="https://soundcloud.com/djjosehernandez"
           target="_blank"
           rel="noopener noreferrer preload"
-          className="fa fa-soundcloud"
+          className="fab fa-soundcloud"
           aria-label="Soundcloud"
         >
           {' '}
@@ -42,7 +42,7 @@ function Footer() {
           to="https://www.mixcloud.com/DjJoseHernandez/"
           target="_blank"
           rel="noopener noreferrer preload"
-          className="fa fa-mixcloud"
+          className="fab fa-mixcloud"
           aria-label="Mixcloud"
         >
           {' '}
