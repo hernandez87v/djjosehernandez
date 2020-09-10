@@ -4,6 +4,10 @@
 
 :arrow_right: Make the site a Progressive Web App.
 
+## :anchor: Lighthouse PWA Score
+
+![Lighthouse PWA Score](/public/jh-lighthouse-PWA.png)
+
 ## :iphone: Mobile Portrait View
 
 ![DJ website mobile portrait view](/public/jh-mobile-portrait.png)
@@ -15,6 +19,14 @@
 ## :computer: Desktop Home View
 
 ![DJ website home view](/public/jh-home.png)
+
+## :bar_chart: Lighthouse Score
+
+![Lighthouse Score](/public/jh-lighthouse-score.png)
+
+## :package: App Install
+
+![PWA App install](/public/jh-PWA.png)
 
 ## Available Scripts
 
