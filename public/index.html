@@ -26,7 +26,8 @@
         });
       }
     </script>
-    <link rel="dns-prefetch" href="https://fonts.gstatic.com/" crossorigin />
+    <link rel="preconnect" href="https://audio6.mixcloud.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
     <link
       rel="preload"
       href="https://fonts.gstatic.com/s/teko/v10/LYjCdG7kmE0gdRhYsCRgqHAtXN8.woff2"
@@ -38,7 +39,8 @@
         font-family: 'Teko';
         font-style: normal;
         font-weight: 700;
-        src: local('Teko Regular'), local('Teko-Regular'),
+        font-display: swap;
+        src: local('Teko Bold'), local('Teko-Bold'),
           url(https://fonts.gstatic.com/s/teko/v10/LYjCdG7kmE0gdRhYsCRgqHAtXN8.woff2)
             format('woff2');
         unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
