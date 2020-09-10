@@ -6,7 +6,7 @@ export default function Soundcloud() {
   return (
     <header id="navbar-header">
       <h2 className="logo" alt="logo">
-        <a href="/">Jose Hernandez</a>
+        <Link to="/">Jose Hernandez</Link>
       </h2>
       <nav>
         <ul className="nav__links">
