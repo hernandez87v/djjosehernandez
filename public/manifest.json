@@ -7,6 +7,12 @@
       "type": "image/png",
       "sizes": "145x145",
       "purpose": "any maskable"
+    },
+    {
+      "src": "jh-white-logo-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
     }
   ],
   "start_url": ".",
