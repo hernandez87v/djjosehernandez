@@ -23,7 +23,7 @@ function App() {
         <Navbar2 />
         <Switch>
           <Route path="/" rel="preconnect" exact component={Home} />
-          <Route path="/Twitch" exact component={Twitch} />
+          <Route path="/Twitch" component={Twitch} />
           <Route path="/Soundcloud" exact component={Soundcloud} />
           <Route path="/Mixcloud" exact component={Mixcloud} />
         </Switch>
