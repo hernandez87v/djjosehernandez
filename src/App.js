@@ -22,7 +22,7 @@ function App() {
       <div className="App">
         <Navbar2 />
         <Switch>
-          <Route path="/" exact component={Home} />
+          <Route path="/" rel="preconnect" exact component={Home} />
           <Route path="/Twitch" exact component={Twitch} />
           <Route path="/Soundcloud" exact component={Soundcloud} />
           <Route path="/Mixcloud" exact component={Mixcloud} />
