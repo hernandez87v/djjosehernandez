@@ -3,6 +3,7 @@
 ## Next up:
 
 :heavy_check_mark: Make the site a Progressive Web App.
+
 :arrow_right: Further improve site performance.
 
 ## :anchor: Lighthouse PWA Score
