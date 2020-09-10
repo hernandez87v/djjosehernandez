@@ -22,7 +22,7 @@ function Home() {
           title="mixcloud-home-player"
           width="100%"
           height="60"
-          rel="dns-prefetch"
+          rel="dns-preload"
           src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&autoplay=1&feed=%2FDjJoseHernandez%2F"
           frameBorder="0"
           allow="autoplay"
