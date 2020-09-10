@@ -28,7 +28,7 @@ function Home() {
           allow="autoplay"
         ></iframe>
       </div>
-      <section rel="preconnect" style={sectionStyle}>
+      <section rel="preload" style={sectionStyle}>
         {' '}
       </section>
     </>
