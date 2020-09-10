@@ -24,11 +24,14 @@ ul.nav__links {
 
 a {
   color: white;
+  margin: 0px;
+  padding: 8px;
+  font-size: larger;
 }
 
 .nav__links li {
   display: inline-block;
-  padding: 0px 20px;
+  padding: 0px 15px;
 }
 
 .nav__links li a {
@@ -40,7 +43,6 @@ a {
 }
 
 button {
-  margin-left: 20px;
   padding: 9px 25px;
   background-color: whitesmoke;
   border: none;
@@ -53,7 +55,7 @@ button:hover {
   background-color: rgb(245, 245, 245, 0.8);
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 995px) {
   h2.logo {
     align-items: center;
     margin: auto;
@@ -72,10 +74,14 @@ button:hover {
   }
 }
 
-@media screen and (max-width: 630px) {
+@media screen and (max-width: 800px) {
   header#navbar-header {
     display: flex;
     flex-direction: column;
+  }
+
+  h2.logo {
+    margin-bottom: 10px;
   }
 
   button {
