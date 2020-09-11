@@ -1,12 +1,9 @@
 const cacheName = 'version-3';
-
-// const self = this;
-
+const self = this;
 // Install SW
 self.addEventListener('install', (event) => {
   console.log('Service Worker: Installed');
 });
-
 // Activate the SW
 self.addEventListener('activate', (event) => {
   console.log('Service Worker: Activated');
@@ -24,7 +21,6 @@ self.addEventListener('activate', (event) => {
     })
   );
 });
-
 // Listen for requests
 self.addEventListener('fetch', (event) => {
   console.log('Service Worker: Fetching...');
