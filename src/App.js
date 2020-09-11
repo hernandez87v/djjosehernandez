@@ -13,7 +13,9 @@ const Mixcloud = loadable(() => import('./components/Mixcloud/Mixcloud'));
 
 function App() {
   useEffect(() => {
-    ReactGA.initialize('UA-175233883-1');
+    ReactGA.initialize('UA-175233883-1', {
+      cookie_flags: 'SameSite=None;Secure',
+    });
     ReactGA.pageview(window.location.pathname + window.location.search);
   }, []);
 

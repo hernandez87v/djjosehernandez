@@ -2,7 +2,6 @@ import React from 'react';
 import ReactPlayer from 'react-player/mixcloud';
 import './Mixcloud.css';
 
-// ,Loads Mixcloud Player
 function Mixcloud() {
   return (
     <div className="mixcloud-player">

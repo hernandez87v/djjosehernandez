@@ -2,7 +2,6 @@ import React from 'react';
 import ReactPlayer from 'react-player/soundcloud';
 import './Soundcloud.css';
 
-// ,Loads Soundcloud Player
 export default function Soundcloud() {
   return (
     <div className="soundcloud-player">
