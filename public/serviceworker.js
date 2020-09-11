@@ -21,7 +21,7 @@ self.addEventListener('fetch', (event) => {
   );
 });
 
-// Active the SW
+// Activate the SW
 self.addEventListener('activate', (event) => {
   const cacheWhitelist = [];
   cacheWhitelist.push(CACHE_NAME);
