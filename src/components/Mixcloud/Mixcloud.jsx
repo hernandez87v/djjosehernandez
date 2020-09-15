@@ -8,7 +8,7 @@ function Mixcloud() {
       <ReactPlayer
         height="200px"
         width="100%"
-        url="https://www.mixcloud.com/vancouvertrancefamily/vtf-radio-66-jose-hernandez/"
+        url="https://www.mixcloud.com/DjJoseHernandez/makingprorgess-037/"
         config={{
           options: {
             autoplay: true,
