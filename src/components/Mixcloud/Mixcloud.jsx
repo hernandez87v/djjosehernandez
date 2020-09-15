@@ -8,7 +8,6 @@ function Mixcloud() {
       <ReactPlayer
         height="200px"
         width="100%"
-        rel="preload"
         url="https://www.mixcloud.com/vancouvertrancefamily/vtf-radio-66-jose-hernandez/"
         config={{
           options: {
