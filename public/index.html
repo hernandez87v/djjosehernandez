@@ -11,22 +11,6 @@
     />
     <link rel="apple-touch-icon" href="./jh-white-logo.png" />
     <link rel="manifest" href="./manifest.json" />
-    <script>
-      if ('serviceWorker' in navigator) {
-        window.addEventListener('load', () => {
-          navigator.serviceWorker
-            .register('./serviceworker.js')
-            .then((reg) => console.log('Success: ', reg.scope))
-            .catch((err) => console.log('Failure: ', err));
-        });
-      }
-    </script>
-    <title>Jose Hernandez</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-
     <link rel="preconnect" href="https://audio6.mixcloud.com" crossorigin />
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
     <link
@@ -49,5 +33,20 @@
           U+2212, U+2215, U+FEFF, U+FFFD;
       }
     </style>
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker
+            .register('./serviceworker.js')
+            .then((reg) => console.log('Success: ', reg.scope))
+            .catch((err) => console.log('Failure: ', err));
+        });
+      }
+    </script>
+    <title>Jose Hernandez</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
   </body>
 </html>
