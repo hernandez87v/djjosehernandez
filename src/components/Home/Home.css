@@ -7,16 +7,16 @@ div.mixcloud-home {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 35%;
+  width: 65%;
 }
-
+/* 
 @media screen and (max-width: 915px) {
   div.mixcloud-home {
     width: 65%;
   }
-}
+} */
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 550px) {
   div.mixcloud-home {
     width: 100%;
   }
