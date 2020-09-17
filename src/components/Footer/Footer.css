@@ -33,9 +33,9 @@ footer {
 /* GLOBAL SETTINGS FOR ALL PAGES IN LANDSCAPE MODE */
 @media (orientation: landscape) {
   header#navbar-header {
-    background-color: rgba(0, 0, 0, 0.247);
+    background-color: rgba(0, 0, 0, 0.418);
     margin: 0px;
-    padding: 0px;
+    padding: 20px;
   }
 
   .twitch-player div {
@@ -51,13 +51,10 @@ footer {
   }
 
   .footer__socials {
-    background-color: rgba(0, 0, 0, 0.247);
     display: flex;
     position: absolute;
     justify-content: center;
     padding: 0% 0 2%;
     bottom: 12px;
-    width: 100%;
-    height: 3.5rem;
   }
 }
