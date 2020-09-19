@@ -2,13 +2,17 @@ import React from 'react';
 import { BrowserRouter } from 'react-router-dom';
 import ReactDOM from 'react-dom';
 import App from './App';
-
+import 'https://www.gstatic.com/firebasejs/7.21.0/firebase-app.js';
 ReactDOM.render(
   <BrowserRouter forceRefresh={true}>
     <App />
   </BrowserRouter>,
   document.getElementById('root')
 );
+
+const tokenString = document.getElementById('token');
+const errorMessage = document.getElementById('error');
+const message = document.getElementById('message');
 
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
@@ -20,7 +24,7 @@ const firebaseConfig = {
   storageBucket: process.env.REACT_APP_STORAGE_BUCKET,
   messagingSenderId: process.env.REACT_APP_MESSAGING_SENDER_ID,
   appId: process.env.REACT_APP_ID,
-  measurementId: process.env.REACT_MEASUREMENT_ID,
+  measurementId: process.env.REACT_APP_MEASUREMENT_ID,
 };
 
 // Initialize Firebase
