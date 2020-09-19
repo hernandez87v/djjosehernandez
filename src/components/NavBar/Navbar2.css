@@ -2,6 +2,7 @@ header#navbar-header {
   background-color: rgba(0, 0, 0, 0.418);
   position: relative;
   z-index: 1;
+  padding: 20px;
 }
 
 header {
