@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter } from 'react-router-dom';
 import ReactDOM from 'react-dom';
 import App from './App';
-import 'https://www.gstatic.com/firebasejs/7.21.0/firebase-app.js';
+import firebase from 'firebase';
 ReactDOM.render(
   <BrowserRouter forceRefresh={true}>
     <App />
