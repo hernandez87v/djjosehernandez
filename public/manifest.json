@@ -1,4 +1,6 @@
 {
+  //Enter gcm_sender_id here
+  "gcm_sender_id": "756211300843",
   "short_name": "Jose Hernandez",
   "name": "DJ Jose Hernandez",
   "icons": [
