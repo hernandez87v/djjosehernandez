@@ -1,4 +1,4 @@
-:headphones: A DJ Website with links to social media and music player APIs. Built with responsive design in mind.
+![Webpage Banner](/public/Repo-DJJosehernandezv3.png?raw=true)
 
 ## Next up:
 
