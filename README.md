@@ -1,4 +1,4 @@
-![Webpage Banner](/public/Repo-DJJosehernandezv3.png?raw=true)
+![Webpage Banner](/public/Github-Social-Preview-DJJosehernandezv3.png?raw=true)
 
 ## Next up:
 
