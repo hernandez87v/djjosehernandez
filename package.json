@@ -16,7 +16,7 @@
     "react-player": "^2.6.2",
     "react-responsive-animate-navbar": "^1.1.8",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "^3.4.3",
+    "react-scripts": "^4.0.2",
     "react-twitch-embed-video": "^2.0.4",
     "serialize-javascript": "^4.0.0"
   },
