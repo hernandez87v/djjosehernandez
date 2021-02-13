@@ -1,0 +1,22 @@
+.mixcloud-player div {
+  margin-top: 20vh;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1150px) {
+  .mixcloud-player div {
+    height: 300em;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .mixcloud-player div {
+    margin-top: 10vh;
+    width: 80%;
+  }
+}
+
+.g-background-default {
+  background-color: #000000;
+}

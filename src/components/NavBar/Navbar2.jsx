@@ -11,6 +11,9 @@ export default function Soundcloud() {
       <nav>
         <ul className="nav__links">
           <li>
+            <Link to="/Gallery">Gallery</Link>
+          </li>
+          <li>
             <Link to="/Twitch">Twitch</Link>
           </li>
           <li>
