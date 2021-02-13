@@ -50,7 +50,7 @@ function Footer() {
       </div>
       <footer id="footer">
         <div className="footer-copyright text-center py-3">
-          © 2020 DJ Jose Hernandez
+          © 2021 DJ Jose Hernandez
         </div>
       </footer>
     </>
