@@ -3,27 +3,27 @@ import axios from 'axios';
 // import './Gallery.css';
 
 function Gallery() {
-  const [data, setPosts] = useState([]);
+  const [post, setPosts] = useState([]);
   // api with data
   useEffect(() => {
     axios
       .get(
-        'https://graph.instagram.com/me/media?fields=id,media_type,media_url,username,timestamp&access_token='
+        'https://graph.instagram.com/me/media?fields=id,media_type,media_url,username,timestamp&access_token=IGQVJYR1RGWm9sYzc1ZAl9aSi1nTmljQVg0THlUbU84Tl9qb2dEUXotaDBycThPajhqX1RXVW9iU1g4cDVRcmFtekIyMHNTSDlvek5NM2xuYzQwR0FVTm9EekxnWjRxZAENORjR4al9Ody1RTjB3QlBsZAAZDZD'
       )
-      .then((response) => setPosts(response.data));
+      .then((response) => setPosts(response.data.data));
   }, []);
-  console.log('this is posts:', data.media_url);
+  // console.log('this is posts:', post);
 
   return (
     <div className="gallery">
-      {/* {data.map((post) => (
-        <div className="card-content" key={data}>
+      {post.map((posts) => (
+        <div className="card-content" key={posts}>
           <ul>
-            <li>id: {post.id}</li>
+            <li>id: {posts.id}</li>
           </ul>
-          <img className="feed" src={data(1).media_url} />
+          <img className="feed" src={posts.media_url} />
         </div>
-      ))} */}
+      ))}
     </div>
   );
 }
