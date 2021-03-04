@@ -8,7 +8,7 @@ function Gallery() {
   useEffect(() => {
     axios
       .get(
-        'https://graph.instagram.com/me/media?fields=id,media_type,media_url,username,timestamp&access_token='
+        `https://graph.instagram.com/me/media?fields=id,media_type,media_url,username,timestamp&access_token=${process.env.REACT_APP_API_TOKEN}`
       )
       .then((response) => setPosts(response.data.data));
   }, []);
