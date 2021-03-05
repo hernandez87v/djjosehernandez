@@ -1,4 +1,4 @@
-.mixcloud-player div {
+/* .mixcloud-player div {
   margin-top: 20vh;
   display: flex;
   justify-content: center;
@@ -19,4 +19,81 @@
 
 .g-background-default {
   background-color: #000000;
+} */
+
+/* Instagram post content  */
+
+.all-cards {
+  min-height: 100vh;
+  margin-top: 20vh;
+  width: 80%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  padding-bottom: 100px;
+}
+
+.post-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 264px;
+  /* max-width: 264px;
+  max-height: 264px;
+  width: auto;
+  height: auto; */
+}
+
+div.card-content {
+  /* width: max-content;
+  height: max-content; */
+  width: 330px;
+  height: 330px;
+  align-self: auto;
+  margin: 10px;
+}
+
+img.single-post {
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 80%;
+  height: 80%;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 0;
+}
+
+video.video-post {
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 80%;
+  height: 80%;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 0;
+}
+
+.post-info {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+div.footer__socials {
+  position: fixed;
+  bottom: 40%;
+  flex-direction: column;
+}
+
+.all-cards #footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
 }
