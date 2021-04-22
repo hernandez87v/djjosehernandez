@@ -22,20 +22,20 @@ self.addEventListener('activate', (event) => {
   );
 });
 // Listen for requests
-self.addEventListener('fetch', (event) => {
-  console.log('Service Worker: Fetching...');
-  event.respondWith(
-    fetch(event.request)
-      .then((res) => {
-        // Make clone of response
-        const resClone = res.clone();
-        // Open Cache
-        caches.open(cacheName).then((cache) => {
-          // Add response to cache
-          cache.put(event.request, resClone);
-        });
-        return res;
-      })
-      .catch((err) => caches.match(event.request).then((res) => res))
-  );
-});
+// self.addEventListener('fetch', (event) => {
+//   console.log('Service Worker: Fetching...');
+//   event.respondWith(
+//     fetch(event.request)
+//       .then((res) => {
+//         // Make clone of response
+//         const resClone = res.clone();
+//         // Open Cache
+//         caches.open(cacheName).then((cache) => {
+//           // Add response to cache
+//           cache.put(event.request, resClone);
+//         });
+//         return res;
+//       })
+//       .catch((err) => caches.match(event.request).then((res) => res))
+//   );
+// });
