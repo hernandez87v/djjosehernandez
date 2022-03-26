@@ -10,8 +10,23 @@ div.mixcloud-home {
   width: 65%;
 }
 
+div.container-book-now {
+  margin: 0;
+  padding-top: 5rem;
+  display: flex;
+  justify-content: center;
+}
+
+button.book-now {
+  font-size: medium;
+}
+
 @media screen and (max-width: 550px) {
   div.mixcloud-home {
     width: 100%;
+  }
+
+  div.container-book-now {
+    padding-top: 10rem;
   }
 }

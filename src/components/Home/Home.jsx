@@ -27,6 +27,11 @@ function Home() {
           allow="autoplay"
         ></iframe>
       </div>
+      <div className="container-book-now">
+      <a className="cta" href="mailto:djjosehernandez@hotmail.com?subject=Booking inquiry">
+        <button className='book-now'>BOOK NOW</button>
+      </a>
+      </div>
       <section rel="preload" style={sectionStyle}>
         {' '}
       </section>
