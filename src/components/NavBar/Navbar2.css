@@ -55,6 +55,14 @@ button:hover {
   background-color: rgb(245, 245, 245, 0.8);
 }
 
+#jh-logo {
+  content: url(/joseh-white-logo.png);
+  /* float: left; */
+  width: 384px;
+  height: 71px;
+  /* vertical-align: middle; */
+}
+
 @media screen and (max-width: 995px) {
   h2.logo {
     align-items: center;

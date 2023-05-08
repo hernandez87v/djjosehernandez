@@ -5,15 +5,18 @@ import { Link } from 'react-router-dom';
 export default function Soundcloud() {
   return (
     <header id="navbar-header">
-      <h2 className="logo" alt="logo">
-        <Link to="/">
-        <img
-              alt="/"
-              src="/joseh-white-logo.png"
-              width="384"
-              height="71"
-              className="d-inline-block align-top"
-            /></Link>
+      <h2 className="logo" alt="logo" target="_blank">
+        <div id='jh-logo'>
+          <a href to="/">
+            {/* <img
+            alt="/"
+            src="/joseh-white-logo.png"
+            width="384"
+            height="71"
+            className="align-top"
+          /> */}
+          </a>
+        </div>
       </h2>
       <nav>
         <ul className="nav__links">
