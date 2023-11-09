@@ -10,6 +10,13 @@ div.mixcloud-home {
   width: 65%;
 }
 
+a.bio {
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+}
+
 div.container-book-now {
   margin: 0;
   padding-top: 5rem;
