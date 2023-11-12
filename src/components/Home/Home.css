@@ -10,7 +10,7 @@ div.mixcloud-home {
   width: 65%;
 }
 
-a.bio {
+div.bio {
   color: white;
   padding: 15px;
   display: flex;
