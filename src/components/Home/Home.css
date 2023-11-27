@@ -13,19 +13,50 @@ div.mixcloud-home {
 div.bio {
   color: white;
   padding: 15px;
-  display: flex;
-  justify-content: center;
 }
 
 div.container-book-now {
   margin: 0;
-  padding-top: 5rem;
+  padding-top: 1.5rem;
   display: flex;
-  justify-content: center;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-items: center;
 }
 
 button.book-now {
+  margin-top: 1rem;
   font-size: medium;
+}
+
+/* SCROLLBAR */
+#bio {
+  background-color: rgba(0, 0, 0, 0.500);
+  width: 500px;
+  height: 200px;
+  overflow-y: scroll; /* Adding the ability to scroll */
+}
+
+/* Hiding scrollbar for Chrome, Safari and Opera */
+#bio::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hiding scrollbar for IE, Edge and Firefox */
+#bio {
+  scrollbar-width: none;  /* Firefox */
+  -ms-overflow-style: none;  /* IE and Edge */
+}
+
+@media screen and (min-width: 900px) {
+
+  div.container-book-now {
+    padding-top: 6rem;
+  }
+  #bio {
+    width: 800px;
+    height: 300px;
+  }
 }
 
 @media screen and (max-width: 550px) {
@@ -34,6 +65,22 @@ button.book-now {
   }
 
   div.container-book-now {
-    padding-top: 10rem;
+    padding-top: 8rem;
+  }
+  #bio {
+    width: 350px;
+    height: 200px;
   }
 }
+
+@media screen and (max-width: 400px) {
+
+  div.container-book-now {
+    padding-top: 0rem;
+  }
+  #bio {
+    width: 300px;
+    height: 160px;
+  }
+}
+
