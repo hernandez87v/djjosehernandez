@@ -26,6 +26,9 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "resolutions": {
+    "minimist": "1.2.6"
+  },
   "eslintConfig": {
     "extends": "react-app"
   },
